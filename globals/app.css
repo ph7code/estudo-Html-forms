@@ -1,0 +1,62 @@
+#app{
+  display: grid;
+  grid-template-columns: 51.25% 48.75%;
+  height: 100vh;
+}
+.aside-container{
+  padding: 4rem;
+  background-color: var(--surface-secondary);
+}
+.aside-container header img{
+  width: 12.6rem;
+  height: 2rem;
+}
+.aside-container header h2{
+  font: 2.5rem/1.25 'poppins','sans-serif';
+
+  span{
+    color: var(--text-highlight);
+  };
+}
+.aside-container header p{
+  font: 1rem/1.25 'poppins', 'sans-serif';
+  color: var(--text-secondary);
+}
+.aside-container header{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.main-container{
+  padding: 4rem;
+  background-color: var(-surface-primary);
+}
+.main-container header{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.main-container header section h1{
+font: 1.5rem/1.25 'Poppins', sans-serif;
+color: var(--text-primary);
+}
+.main-container header section p{
+  font: 1rem/1.5 'Poppins', sans-serif;
+  color: var(--text-secondary);
+}
+.header-header{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  span{
+    color: var(--text-secondary);
+    font-family: 'poppins';
+    line-height: 1.5;
+  }
+}
+.main-container header img{
+  width: 24px;
+  height: 24px;
+}
