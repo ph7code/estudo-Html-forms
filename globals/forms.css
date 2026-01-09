@@ -3,6 +3,8 @@ form{
 }
 main legend{
   margin-bottom: 1.5rem;
+  color: var(--text-primary);
+  font: 600 1rem/1.25 'poppins', 'sans-serif';
 }
 main fieldset{
   border: none;
@@ -17,4 +19,19 @@ main fieldset{
 }
 input, select, textarea{
 appearance: none;
+border: 1px solid var(--stroke-default);
+border-radius: 0.5rem;
+
+padding: .75rem 1rem;
+font: var(--text-primary);
+}
+main label{
+  color: var(--text-secondary);
+  font: 0.85rem/1.4 'poppins', 'sans-serif';
+  margin-bottom: .25rem;
+}
+input:focus, select:focus, textarea:focus{
+  outline: .25rem solid var(--surface-secondary);
+  border: .125rem solid var(--stroke-hightlight);
+  outline-offset: .1px;
 }
