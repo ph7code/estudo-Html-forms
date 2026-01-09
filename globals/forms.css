@@ -1,0 +1,20 @@
+form{
+  margin-top: 3rem;
+}
+main legend{
+  margin-bottom: 1.5rem;
+}
+main fieldset{
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.input-wrapper, .select-wrapper, .textarea-wrapper, .droparea-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+input, select, textarea{
+appearance: none;
+}

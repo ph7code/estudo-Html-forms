@@ -37,6 +37,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 3rem;
 }
 .main-container header section h1{
 font: 1.5rem/1.25 'Poppins', sans-serif;
