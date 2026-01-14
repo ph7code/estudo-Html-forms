@@ -10,6 +10,7 @@ main{
 .aside-container{
   padding: 4rem;
   background-color: var(--surface-secondary);
+  justify-items: center;
 }
 .aside-container header img{
   width: 12.6rem;

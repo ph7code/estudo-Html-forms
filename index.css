@@ -1,6 +1,7 @@
 @import url(globals/global.css);
 @import url(globals/app.css);
 @import url(/globals/forms.css);
+@import url(/globals/radios.css);
 *{
   padding: 0;
   margin: 0;
