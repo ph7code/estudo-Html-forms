@@ -5,6 +5,7 @@
 }
 main{
   overflow-y: scroll;
+  padding: 4rem;
 }
 .aside-container{
   padding: 4rem;
@@ -33,7 +34,6 @@ main{
   margin-bottom: 2rem;
 }
 .main-container{
-  padding: 4rem;
   background-color: var(-surface-primary);
 }
 .main-container header{

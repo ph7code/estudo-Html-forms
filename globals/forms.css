@@ -86,3 +86,21 @@ select{
     }
   }
 }
+.adress-info{
+  margin-top: 3rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-row: 1fr 1fr;
+  gap: 1.25rem;
+}
+.grid div:first-child{
+  grid-column: 1/1;
+}
+.grid div:last-child{
+  grid-column: 2/3;
+}
+.grid input{
+  width: 100%;
+}
