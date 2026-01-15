@@ -1,0 +1,36 @@
+.action-wrapper{
+  display: flex;
+  justify-content: flex-end;
+
+  gap: 1rem;
+  margin-top: 3rem;
+  position: relative;
+  padding: 1rem 0 0 0;
+}
+.btn-secondary{
+  all: unset;
+  color: #E43A12;
+  font: var(--text-sm);
+  border: 1px solid #E43A12;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover{
+    outline: .25rem solid var(--surface-secondary);
+  }
+}
+
+.btn-primary{
+  all: unset;
+  background-color: #E43A12;
+  color: white;
+  font: var(--text-sm);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #F3541C;
+  }
+}
